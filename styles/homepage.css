@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans Condensed', sans-serif !important;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.login {
+    width: 100%;
+    padding: 0.01em 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif !important;
+    color: #000 !important;
+    box-sizing: inherit;
+    display: block;
+    background: no-repeat center center;
+    background-size: cover;
+    height: auto;
+    background-color: rgb(249, 255, 255);
+    background-image: url('https://miel.unlam.edu.ar/vista/imagenes/home/foto-home-3.jpg');
+    display: flex;
+    align-items: flex-end;
+}
+
+.cuadros {
+    display: flex;
+}
+
+.padding-cuadros {
+    padding: 0.01em 16px;
+}
+
+.cuadrado-verde {
+    color: #fff !important;
+    background-color: #4caf50 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19) !important;
+    float: right !important;
+
+
+}
+
+.cuadro-blanco {
+    border-color: #fff;
+    color: #000;
+
+}
+
+input {
+    border-bottom: 1px solid #808080;
+    width: 100%;
+}
