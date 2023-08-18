@@ -245,6 +245,17 @@ ol a{
 }
 
 .paaa{
-    padding: 5%;
+padding: 2%;
    text-align: center;
+   font-size: small;
+}
+
+.contenedorcito{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enlaces{
+    flex-wrap: wrap;
 }
