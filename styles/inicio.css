@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -8,42 +8,163 @@ body{
     font-size: small;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
 }
-.user{
+
+.user {
     display: flex;
     flex-direction: row;
     margin-top: 5px;
-    
+
 }
-.user a{
+
+.user a {
     color: #9ac89c;
     text-decoration: none;
 }
 
-.header{
+.header {
     background-color: #121212;
     color: white;
     box-sizing: border-box;
-    padding: 2px
+    padding: 3px
 }
 
-.logos{
+.logos {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
 }
 
-.foto-perfil{
-   border-radius:50px;
-   margin-left: 10px;
-   margin-right: 15px;
+.foto-perfil {
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 15px;
 }
 
-.nombre{
+.nombre {
     margin: 0;
     margin-bottom: -15px;
     text-align: right;
+}
+
+.menu {
+    color: white;
+    background-color: #59a15b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu ul {
+    padding: 0%;
+    margin: 0;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+
+}
+
+.menu a:hover {
+    background-color: #519253;
+    transition: 0.5s;
+}
+
+.dots {
+    padding: 0;
+    margin: 0%;
+}
+
+.links {
+    padding-top: 5px;
+}
+
+.aside-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.aside-items li:hover {
+   background-color: #3d3c3c;
+}
+
+.aside-items li {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.aside-items i {
+    padding-right: 15px;
+}
+
+.aside-items {
+    padding: 0;
+    list-style: none;
+}
+
+aside {
+    padding: 0;
+    margin: 0%;
+    background-color: #313131;
+    color: white;
+    width: 250px;
+}
+
+aside h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: x-large;
+}
+
+main {
+    display: flex;
+    
+}
+
+section{
+    box-sizing: border-box;
+    padding: 30px;
+    align-items: center;
+    width: 100%;
+    background-color: #121212;
+    color: white;
+}
+
+.titulo-materias{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton-organizar-materias{
+    background-color: #3d3c3c;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.caja-materia{
+    background-color: #3d3c3c;
+}
+
+.caja-materia-opciones li{
+    list-style: none;
+    padding: 10px;
+}
+
+.caja-materia-opciones ul{
+    display: flex;
+}
+
+.caja-materia-opciones a{
+    text-decoration: none;
+    color: white;
 }
